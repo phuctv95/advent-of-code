@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
+import { getResult } from './2015/day1';
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+console.log(getResult());
